@@ -1,7 +1,7 @@
 const Home = (props) => (
     <aside className="Home">
       <h1>Home</h1>
-      <p>Bem vindo!</p>
+      <p>Welcome!</p>
     </aside>
   );
   
