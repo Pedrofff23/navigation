@@ -7,8 +7,14 @@ const Menu = (props) => (
       <ul>
         <li>
           <Link to="/">Home</Link>
-          </li>
-        <li>  
+        </li>
+        <li>
+          <Link to="/param/123">Param #01</Link>
+        </li>
+        <li>
+          <Link to="/param/nice">Param #02</Link>
+        </li>
+        <li>
           <a href="/about">About</a>
         </li>
       </ul>
