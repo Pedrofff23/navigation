@@ -3,11 +3,16 @@ import Menu from "../components/Menu";
 
 import "./App.css";
 
-const App = (props) => (
-  <div className="App">
-    <Menu />
-    <Content />
-  </div>
-);
+import { BrowserRouter } from  'react-router-dom' // essa importação mudou
 
-export default App;
+ 
+const App = props => (
+    <div className="App">
+        <BrowserRouter> 
+            <Menu />
+            <Content />
+        </BrowserRouter> 
+    </div>
+)
+ 
+export default App
